@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    // 定義ファイル(.d.js)を出力する
+    "declaration": false,
+    // 定義ファイルの出力先フォルダ名(webpackの設定と合わせておく)
+    "outDir": "./js",
+    "target": "es5",
+    "module": "es2015",
+    "jsx": "react",
+    "moduleResolution": "node",
+
+    "lib": [
+      "dom",
+      "es2017"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}
